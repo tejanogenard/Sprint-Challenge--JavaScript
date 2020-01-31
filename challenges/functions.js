@@ -9,15 +9,15 @@
 
 function consume( a, b, cb){
     
-  add: function (num1, num2){
+function add (num1, num2){
       return num1 + num2
   };
 
-  multiply: function (num1, num2){
+  function multiply(num1, num2){
       return num1 * num2
   };
 
-  greeting: function(firstName, lastName){
+   function greeting (firstName, lastName){
     return `Hello ${firstName} ${lastName}, nice to meet you!`
   }
   return cb(a, b)
